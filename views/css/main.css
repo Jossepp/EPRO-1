@@ -21,101 +21,110 @@ body {
 	flex-wrap: wrap;
 }
 
-.form_login {
+.form_login,
+.form_register {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-
 	width: 400px;
-	height: 400px;
+	height: 500px;
 	margin: 20px;
-	border-radius: 15px;
-
-	background: #243177;
+	border-radius: 5px;
+	background: #18204C;
 	color: #fff;
 	box-shadow: 0px 5px 10px #000;
 }
 
-.form_login form {
+.form_login form,
+.form_register form {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-
 	width: 90%;
 	height: 90%;
 }
 
-.form_login form span {
+.form_login form span,
+.form_register form span {
 	font-size: 1.2em;
 }
 
-.form_login form hr {
+.form_login form hr,
+.form_register form hr {
 	width: 100%;
 	height: 2px;
-
 	background: #fff;
 	border: none;
 }
 
-.form_login form label {
+.form_login form label,
+.form_register form label {
 	width: 100%;
 	height: 20px;
-
 	text-align: left;
 }
 
-.form_login form input {
+.form_login form input,
+.form_register form input {
 	width: 100%;
-	height: 50px;
+	height: 40px;
 	padding: 0 15px;
-
 	border-radius: 10px;
 	border: none;
 }
 
-.form_login form .login_options {
+.form_login form .login_options,
+.form_register form .register_options {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-
 	width: 100%;
 }
 
-.form_login form .register {
+.form_login form .register,
+.form_register form .login {
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-start;
 	flex-wrap: wrap;
-
 	width: 40%;
 	height: 50px;
 }
 
-.form_login .register span {
+.form_login .register span,
+.form_register .login span {
 	font-size: 0.9em;
 	width: 100%;
 }
 
-.form_login .register a {
+.form_login .register a,
+.form_register .login a {
 	font-size: 0.8em;
 	text-decoration: none;
 	font-style: italic;
 	color: #97BBE7;
 }
 
-.form_login .register a:hover {
+.form_login .register a:hover,
+.form_register .login a:hover {
 	color: #fff;
 }
 
-.form_login form input[type="submit"] {
+.form_login form input[type="submit"],
+.form_register form input[type="submit"] {
 	width: 40%;
 	cursor: pointer;
 	transition: background ease 0.3s;
 }
 
-.form_login form input[type="submit"]:hover {
+.form_login form input[type="submit"]:hover,
+.form_register form input[type="submit"]:hover {
 	background: #97BBE7;
+}
+
+.form_register form .nombre_completo {
+	
 }
 
 footer {
