@@ -25,13 +25,14 @@ body {
 .form_register {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	/*align-items: center;*/
 	flex-wrap: wrap;
 	width: 400px;
-	height: 500px;
-	margin: 20px;
+	/*height: 500px;*/
+	margin-top: 50px;
+	padding: 10px 0;
 	border-radius: 5px;
-	background: #18204C;
+	background: #222A53;
 	color: #fff;
 	box-shadow: 0px 5px 10px #000;
 }
@@ -56,6 +57,7 @@ body {
 	height: 2px;
 	background: #fff;
 	border: none;
+	margin: 10px 0;
 }
 
 .form_login form label,
@@ -63,12 +65,14 @@ body {
 	width: 100%;
 	height: 20px;
 	text-align: left;
+	margin-top: 10px;
 }
 
 .form_login form input,
 .form_register form input {
 	width: 100%;
 	height: 40px;
+	margin: 5px 0;
 	padding: 0 15px;
 	border-radius: 10px;
 	border: none;
@@ -80,6 +84,7 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
+	margin-top: 10px;
 }
 
 .form_login form .register,
@@ -89,7 +94,6 @@ body {
 	align-items: flex-start;
 	flex-wrap: wrap;
 	width: 40%;
-	height: 50px;
 }
 
 .form_login .register span,
@@ -124,11 +128,26 @@ body {
 }
 
 .form_register form .nombre_completo {
-	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.form_register form .inputs_name {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.form_register form .inputs_name input {
+	width: 48%;
 }
 
 footer {
-	position: absolute;
+	position: relative;
+	bottom: 0;
+	right: 0;
 	align-self: flex-end;
 	width: 100%;
 	padding: 10px;
